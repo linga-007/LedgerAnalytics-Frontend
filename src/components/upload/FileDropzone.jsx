@@ -29,7 +29,7 @@ export default function FileDropzone() {
       'application/vnd.ms-excel': ['.xls'],
     },
     multiple: true,
-    maxSize: MAX_FILE_SIZE_BYTES,
+    // maxSize: MAX_FILE_SIZE_BYTES,
     onDrop: (acceptedFiles, rejectedFiles) => {
       setFiles(acceptedFiles)
       setProgress(0)
