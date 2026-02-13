@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LedgerAnalytics-Frontend/static/css/main.e4178c97.css",
+    "main.js": "/LedgerAnalytics-Frontend/static/js/main.6c5ae53c.js",
+    "index.html": "/LedgerAnalytics-Frontend/index.html",
+    "main.e4178c97.css.map": "/LedgerAnalytics-Frontend/static/css/main.e4178c97.css.map",
+    "main.6c5ae53c.js.map": "/LedgerAnalytics-Frontend/static/js/main.6c5ae53c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4178c97.css",
+    "static/js/main.6c5ae53c.js"
+  ]
+}
