@@ -15,12 +15,12 @@ export default function FileDropzone() {
   const [minBalance, setMinBalance] = useState(null)
   const [showResults, setShowResults] = useState(false)
 
-  const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024
+  // const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024
 
-  const hintText = useMemo(() => {
-    const sizeLimit = `${Math.floor(MAX_FILE_SIZE_BYTES / (1024 * 1024))}MB`
-    return `PDF or Excel only. Max ${sizeLimit} per file.`
-  }, [])
+  // const hintText = useMemo(() => {
+  //   const sizeLimit = `${Math.floor(MAX_FILE_SIZE_BYTES / (1024 * 1024))}MB`
+  //   return `PDF or Excel only. Max ${sizeLimit} per file.`
+  // }, [])
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     accept: {
@@ -108,9 +108,9 @@ export default function FileDropzone() {
         <p className={`text-sm font-semibold ${isDragActive ? 'text-emerald-900' : 'text-slate-900'}`}>
           Drag and drop your files
         </p>
-        <p className={`mt-2 text-xs ${isDragActive ? 'text-emerald-700' : 'text-slate-500'}`}>
+        {/* <p className={`mt-2 text-xs ${isDragActive ? 'text-emerald-700' : 'text-slate-500'}`}>
           {hintText}
-        </p>
+        </p> */}
       </div>
 
       {errors.length > 0 && (
