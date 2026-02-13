@@ -1,5 +1,5 @@
 import { useDropzone } from 'react-dropzone'
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { uploadFiles } from '../../services/fileService.js'
 import ResultTable from '../results/ResultTable.jsx'
 import FileList from './FileList.jsx'
